@@ -1,4 +1,4 @@
-# Reporting.NET
+# MarkSFrancis.Reporting
 A configurable reporting tool for .NET to help with generating reports for datasets.
 This is built for dependacy injection, and can be used with or without type safety.
 It allows you to filter the data you get from your database (including sorting), and choose which columns to export
