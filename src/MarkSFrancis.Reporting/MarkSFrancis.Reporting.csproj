@@ -3,11 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseUrl>https://github.com/MarkSFrancis/Reporting.NET/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/MarkSFrancis/Reporting.NET</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/MarkSFrancis/Reporting.NET</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/MarkSFrancis/MarkSFrancis.Reporting/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/MarkSFrancis/MarkSFrancis.Reporting</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MarkSFrancis/MarkSFrancis.Reporting</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
-    <Description>Generate grid based reports in C#. Includes CSV and Excel, but can be extended</Description>
+    <Description>Generate grid based reports in C#. Includes CSV and Excel, but can be extended to support more formats</Description>
     <PackageId>MarkSFrancis.Reporting</PackageId>
     <Authors>MarkSFrancis</Authors>
     <Company>MarkSFrancis</Company>
