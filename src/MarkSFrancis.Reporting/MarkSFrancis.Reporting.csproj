@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/MarkSFrancis/Reporting.NET/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/MarkSFrancis/Reporting.NET</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MarkSFrancis/Reporting.NET</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <Description>Generate grid based reports in C#. Includes CSV and Excel, but can be extended</Description>
+    <PackageId>MarkSFrancis.Reporting</PackageId>
+    <Authors>MarkSFrancis</Authors>
+    <Company>MarkSFrancis</Company>
+    <Product>MarkSFrancis.Reporting</Product>
+    <Version>1.0.0-beta</Version>
+    <AssemblyName>MarkSFrancis.Reporting</AssemblyName>
+    <RootNamespace>MarkSFrancis.Reporting</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="7.1.1" />
+    <PackageReference Include="EPPlus" Version="4.5.2.1" />
+    <PackageReference Include="MarkSFrancis.Reflection" Version="1.1.0-beta4" />
+  </ItemGroup>
+
+</Project>
